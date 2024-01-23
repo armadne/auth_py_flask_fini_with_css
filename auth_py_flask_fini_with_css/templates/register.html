@@ -1,0 +1,28 @@
+{% extends "home.html" %}
+
+
+{% block content %}
+
+
+    <form action="/register" method="post" >
+
+        <label for="username">Username : </label>
+        <input type="text" name="username" placeholder="paul22" /></br></br>
+
+        <label for="password">Password : </label>
+        <input type="password" name="password" /></br></br>
+
+        <label for="password1">Confirm Your Password : </label>
+        <input type="password" name="password1" /></br></br>
+        
+        <input type="submit" value="register" />
+
+
+
+
+    </form>
+
+
+
+
+{% endblock %}
